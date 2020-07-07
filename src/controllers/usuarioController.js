@@ -1,70 +1,74 @@
 const mongoose = require('mongoose');
-const User = mongoose.model('Usuario');
+const User = require('../models/usuarios');
 
 const jwt = require('jsonwebtoken')
-//const bcrypt = require('bcrypt')
+const bcrypt = require('bcrypt')
 
 process.env.SECRET_KEY = 'secret'
 module.exports = {
 
   //cadastrando usuario
   async insert(req, res) {
- /*   const userData = {
+    const userData = {
       nome: req.body.nome,
       email: req.body.email,
       password: req.body.password
-    }*/
-
-    await User.findOne({ email: req.body.email }) //verificando se email ja existe no banco
+    }
+  
+    User.findOne({
+      email: req.body.email
+    })
       .then(user => {
         if (!user) {
-     //     bcrypt.hash(req.body.password, 10, (err, hash) => {
-         //   userData.password = hash
-            User.create(req.body) //cadstro do usuario
+          bcrypt.hash(req.body.password, 10, (err, hash) => {
+            userData.password = hash
+            User.create(userData)
               .then(user => {
-                res.json({ status: user.email + '  foi Cadasatra' })
+                res.json({ status: user.email + 'Registered!' })
               })
               .catch(err => {
-                res.send("Usuario não cadastrado erro:   " + err)
+                res.send('error: ' + err)
               })
-        /*  }).catch(ee =>{
-            console.log("errro:  "+ ee) 
-          })*/
+          })
         } else {
-          res.json({ error: 'Usuario já existe' })
+          res.json({ error: 'User already exists' })
         }
       })
       .catch(err => {
-        res.send("Aconteceu um erro  " + err)
+        res.send('error: ' + err)
       })
   },
+  
 
   //login de acesso
   async login(req, res) {
     await User.findOne({ email: req.body.email }) //verificando se email existe no banco
-      .then(user => {
-        if (user) {
-          if (req.body.password == user.password) { //verifocando se senha esta correta
-            const payload = {
-              _id: user._id,
-              nome: user.nome,
-              email: user.email
-            }
-            let token = jwt.sign(payload, process.env.SECRET_KEY, {
-              expiresIn: 1440
-            })
-            res.send(token)
-          } else {
-            res.json({ error: 'Ocorreu um erro na tentativa de login, verifique seus dados' })
+    .then(user => {
+      if (user) {
+        if (bcrypt.compareSync(req.body.password, user.password)) {
+          // Passwords match
+          const payload = {
+            _id: user._id,
+            nome: user.nome,
+            email: user.email
           }
+          let token = jwt.sign(payload, process.env.SECRET_KEY, {
+            expiresIn: 1440
+          })
+          res.send(token)
         } else {
-          res.json({ error: 'Ocorreu um erro na tentativa de login, verifique seus dados' })
+          // Passwords don't match
+          res.json({ error: 'User does not exist' })
         }
-      })
-      .catch(err => {
-        res.send("Aconteceu erro  " + err)
-      })
-  },
+      } else {
+        res.json({ error: 'User does not exist' })
+      }
+    })
+    .catch(err => {
+      res.send('error: ' + err)
+    })
+},
+
 
   async profile(req, res) {
     var decoded = jwt.verify(req.headers['authorization'], process.env.SECRET_KEY)

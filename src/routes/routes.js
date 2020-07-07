@@ -20,7 +20,7 @@ routes.delete('/produto/:id', produtoController.delete);
 //rotas do usuarios
 routes.post('/register', usuarioController.insert);
 routes.post('/login', usuarioController.login);
-routes.get('/profile',usuarioController.profile);
+routes.get('/profile', usuarioController.profile);
 
 //rotas da Marca
 routes.post('/marca', marcaController.insert);
