@@ -27,6 +27,8 @@ module.exports = {
               .catch(err => {
                 res.send("Usuario não cadastrado erro:   " + err)
               })
+          }).catch(ee =>{
+            console.log("errro:  "+ ee) 
           })
         } else {
           res.json({ error: 'Usuario já existe' })
@@ -75,7 +77,7 @@ module.exports = {
         }
       })
       .catch(err => {
-        res.send('error: ' + err)
+        res.send('aconte ceu um error aki: ' + err)
       })
   }
 }
