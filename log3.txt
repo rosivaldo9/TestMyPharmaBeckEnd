@@ -1,0 +1,54 @@
+
+PS C:\Users\rosiv\OneDrive\Área de Trabalho\test> npm run dev
+
+> crud@1.0.0 dev C:\Users\rosiv\OneDrive\Área de Trabalho\test
+> nodemon index.js
+
+[nodemon] 2.0.4
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching path(s): *.*
+[nodemon] watching extensions: js,mjs,json
+[nodemon] starting `node index.js`
+C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\schema.js:986
+    throw new TypeError(`Invalid schema configuration: \`${name}\` is not ` +
+    ^
+
+TypeError: Invalid schema configuration: `Categoria` is not a valid type at path `categoria.ref`. See http://bit.ly/mongoose-schematypes for a list of valid schema types.       
+    at Schema.interpretAsType (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\schema.js:986:11)
+    at Schema.path (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\schema.js:680:27)
+    at Schema.add (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\schema.js:491:12)
+    at Schema.add (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\schema.js:502:12)
+    at new Schema (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\schema.js:130:10)
+    at Object.<anonymous> (C:\Users\rosiv\OneDrive\Área de Trabalho\test\src\models\produto.js:5:23)
+    at Module._compile (internal/modules/cjs/loader.js:1158:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1178:10)
+    at Module.load (internal/modules/cjs/loader.js:1002:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:901:14)
+    at Module.require (internal/modules/cjs/loader.js:1044:19)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at requireDir (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\require-dir\index.js:128:33)
+    at Object.<anonymous> (C:\Users\rosiv\OneDrive\Área de Trabalho\test\index.js:17:1)
+    at Module._compile (internal/modules/cjs/loader.js:1158:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1178:10)
+    at Module.load (internal/modules/cjs/loader.js:1002:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:901:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:74:12)
+    at internal/main/run_main_module.js:18:47
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+(node:7972) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+(node:7972) DeprecationWarning: collection.count is deprecated, and will be removed in a future version. Use Collection.countDocuments or Collection.estimatedDocumentCount instead
+(node:7972) UnhandledPromiseRejectionWarning: TypeError: Cannot read property '_id' of null
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\src\controllers\ProdutoController.js:17:41
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+(node:7972) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:7972) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process 
+with a non-zero exit code.
+(node:7972) UnhandledPromiseRejectionWarning: TypeError: Cannot read property '_id' of null
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\src\controllers\ProdutoController.js:17:41
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+(node:7972) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 2)
+(node:7972) DeprecationWarning: Mongoose: `findOneAndUpdate()` and `findOneAndDelete()` without the `useFindAndModify` option set to false are deprecated. See: https://mongoosejs.com/docs/deprecations.html#findandmodify
+
+

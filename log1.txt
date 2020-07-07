@@ -1,0 +1,763 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. Todos os direitos reservados.
+
+Experimente a nova plataforma cruzada PowerShell https://aka.ms/pscore6
+
+PS C:\Users\rosiv\OneDrive\Área de Trabalho\test> npm install
+
+> nodemon@2.0.4 postinstall C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\nodemon
+> node bin/postinstall || exit 0
+
+npm WARN crud@1.0.0 No description
+npm WARN crud@1.0.0 No repository field.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@2.1.3 (node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@2.1.3: wanted n","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
+
+9 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+PS C:\Users\rosiv\OneDrive\Área de Trabalho\test> npm run dev
+
+> crud@1.0.0 dev C:\Users\rosiv\OneDrive\Área de Trabalho\test
+> nodemon index.js
+
+[nodemon] 2.0.4
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching path(s): *.*
+[nodemon] watching extensions: js,mjs,json
+[nodemon] starting `node index.js`
+(node:12056) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, removed in a future version. To use the new Server Discover and Monitoring engine, pass optioedTopology: true } to the MongoClient constructor.
+(node:12056) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes inste
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+(node:9116) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, 
+removed in a future version. To use the new Server Discover and Monitoring engine, pass optiondTopology: true } to the MongoClient constructor.
+(node:9116) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instea
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+(node:1700) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, 
+removed in a future version. To use the new Server Discover and Monitoring engine, pass optiondTopology: true } to the MongoClient constructor.
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+(node:7948) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, 
+nt constructor.                                                       ring engine, pass option
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+(node:11040) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To ung engine is deprecated,se the new Server Discover and Monitoring engine, pass option { useUnioring engine, pass optiofiedTopology: true } to the MongoClient constructor.
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+(node:5008) DeprecationWarning: current Server Discovery and MonitoriniedTopology: true } to the MongoClient constructor.
+[nodemon] app crashed - waiting for file changes before starting...   
+^CDeseja finalizar o arquivo em lotes (S/N)? Deseja finalizar o arquivo em lotes (S/N)?
+Deseja finalizar o arquivo em lotes (S/N)? npm install jsonwebtoken   
+PS C:\Users\rosiv\OneDrive\Área de Trabalho\test>  npm install jsonwebtoken bcrypt
+
+> bcrypt@5.0.0 install C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\bcrypt
+> node-pre-gyp install --fallback-to-build
+
+node-pre-gyp WARN Using needle for node-pre-gyp https download 
+[bcrypt] Success: "C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\bcrypt\lib\binding\napi-v3\bcrypt_lib.node" is installed via remote
+npm WARN crud@1.0.0 No description
+npm WARN crud@1.0.0 No repository field.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@2.1.3 (node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@2.1.3: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
++ bcrypt@5.0.0
++ jsonwebtoken@8.5.1
+added 59 packages from 98 contributors and audited 259 packages in 32.876s
+
+10 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+PS C:\Users\rosiv\OneDrive\Área de Trabalho\test> npm run dev
+
+> crud@1.0.0 dev C:\Users\rosiv\OneDrive\Área de Trabalho\test        
+> nodemon index.js
+
+[nodemon] 2.0.4
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching path(s): *.*
+[nodemon] watching extensions: js,mjs,json
+[nodemon] starting `node index.js`
+(node:5100) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, 
+and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+internal/modules/cjs/loader.js:985
+  throw err;
+  ^
+
+Error: Cannot find module '../models/User'
+Require stack:
+- C:\Users\rosiv\OneDrive\Área de Trabalho\test\src\controllers\usuarioControler.js
+- C:\Users\rosiv\OneDrive\Área de Trabalho\test\src\routes\routes.js
+- C:\Users\rosiv\OneDrive\Área de Trabalho\test\index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:982:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:864:27)
+    at Module.require (internal/modules/cjs/loader.js:1044:19)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at Object.<anonymous> (C:\Users\rosiv\OneDrive\Área de Trabalho\test\src\controllers\usuarioControler.js:6:14)
+    at Module._compile (internal/modules/cjs/loader.js:1158:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1178:10)
+    at Module.load (internal/modules/cjs/loader.js:1002:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:901:14)
+    at Module.require (internal/modules/cjs/loader.js:1044:19)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at Object.<anonymous> (C:\Users\rosiv\OneDrive\Área de Trabalho\test\src\routes\routes.js:5:23)
+    at Module._compile (internal/modules/cjs/loader.js:1158:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1178:10)
+    at Module.load (internal/modules/cjs/loader.js:1002:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:901:14)
+    at Module.require (internal/modules/cjs/loader.js:1044:19)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at Object.<anonymous> (C:\Users\rosiv\OneDrive\Área de Trabalho\test\index.js:22:21)      
+    at Module._compile (internal/modules/cjs/loader.js:1158:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1178:10)
+    at Module.load (internal/modules/cjs/loader.js:1002:32) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+ers\\usuarioControler.js',                                            ers\\usuarioControler.js
+    'C:\\Users\\rosiv\\OneDrive\\Área de Trabalho\\test\\src\\routes\\routes.js',                                                           routes.js',
+    'C:\\Users\\rosiv\\OneDrive\\Área de Trabalho\\test\\index.js'    
+  ]
+}
+[nodemon] app crashed - waiting for file changes before starting...   
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+C:\Users\rosiv\OneDrive\Área de Trabalho\test\src\routes\routes.js:14
+routes.post('/usuarios', userController.insert);
+                         ^
+
+ReferenceError: userController is not defined
+    at Object.<anonymous> (C:\Users\rosiv\OneDrive\Área de Trabalho\test\src\routes\routes.js:14:26)
+    at Module._compile (internal/modules/cjs/loader.js:1158:30)       
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1178:10)
+    at Module.load (internal/modules/cjs/loader.js:1002:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:901:14)  
+    at Module.require (internal/modules/cjs/loader.js:1044:19)        
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at Object.<anonymous> (C:\Users\rosiv\OneDrive\Área de Trabalho\test\index.js:22:21)
+    at Module._compile (internal/modules/cjs/loader.js:1158:30)       
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1178:10)
+    at Module.load (internal/modules/cjs/loader.js:1002:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:901:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:74:12)
+    at internal/main/run_main_module.js:18:47
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+C:\Users\rosiv\OneDrive\Área de Trabalho\test\src\routes\routes.js:14
+routes.post('/usuarios', userController.insert);
+                         ^
+
+ReferenceError: userController is not defined
+    at Object.<anonymous> (C:\Users\rosiv\OneDrive\Área de Trabalho\test\src\routes\routes.js:14:26)
+    at Module._compile (internal/modules/cjs/loader.js:1158:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1178:10)
+    at Module.load (internal/modules/cjs/loader.js:1002:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:901:14)
+    at Module.require (internal/modules/cjs/loader.js:1044:19)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at Object.<anonymous> (C:\Users\rosiv\OneDrive\Área de Trabalho\test\index.js:22:21)
+    at Module._compile (internal/modules/cjs/loader.js:1158:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1178:10)
+    at Module.load (internal/modules/cjs/loader.js:1002:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:901:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:74:12)
+    at internal/main/run_main_module.js:18:47
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+(node:2604) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+(node:2604) UnhandledPromiseRejectionWarning: TypeError: User.findOne is not a function
+    at insert (C:\Users\rosiv\OneDrive\Área de Trabalho\test\src\controllers\usuarioControler.js:19:15)
+    at Layer.handle [as handle_request] (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\index.js:275:10)
+    at cors (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\cors\lib\index.js:188:7)
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\cors\lib\index.js:224:17
+    at originCallback (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\cors\lib\index.js:214:15)
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\cors\lib\index.js:204:7)
+    at Layer.handle [as handle_request] (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\layer.js:95:5)
+(node:2604) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:2604) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process 
+with a non-zero exit code.
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+(node:11700) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+(node:9864) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+
+Windows PowerShell
+Copyright (C) Microsoft Corporation. Todos os direitos reservados.
+
+Experimente a nova plataforma cruzada PowerShell https://aka.ms/pscore6
+
+PS C:\Users\rosiv\OneDrive\Área de Trabalho\test> npm run dev
+
+> crud@1.0.0 dev C:\Users\rosiv\OneDrive\Área de Trabalho\test
+> nodemon index.js
+
+[nodemon] 2.0.4
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching path(s): *.*
+[nodemon] watching extensions: js,mjs,json  
+[nodemon] starting `node index.js`
+(node:15036) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+(node:15036) UnhandledPromiseRejectionWarning: MongoNetworkError: failed to connect to server [localhost:27017] on first connect [MongoNetworkError: connection timed out
+    at connectionFailureError (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongodb\lib\core\connection\connect.js:406:14)
+    at Socket.<anonymous> (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongodb\lib\core\connection\connect.js:294:16)
+    at Object.onceWrapper (events.js:417:28)
+    at Socket.emit (events.js:311:20)
+    at Socket._onTimeout (net.js:478:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7) {
+  name: 'MongoNetworkError',
+  [Symbol(mongoErrorContextSymbol)]: {}
+}]
+    at Pool.<anonymous> (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongodb\lib\core\topologies\server.js:438:11)
+    at Pool.emit (events.js:311:20)
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongodb\lib\core\connection\pool.js:561:14
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongodb\lib\core\connection\pool.js:994:11
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongodb\lib\core\connection\connect.js:31:7
+    at callback (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongodb\lib\core\connection\connect.js:264:5)
+    at Socket.<anonymous> (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongodb\lib\core\connection\connect.js:294:7)
+    at Object.onceWrapper (events.js:417:28)
+    at Pool.<anonymous> (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongodb\lib\core\topologies\server.js:438:11)
+    at Pool.emit (events.js:311:20)
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongodb\lib\core\connection\pool.js:561:14
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongodb\lib\core\connection\pool.js:994:11
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongodb\lib\core\connection\connect.js:31:7
+    at callback (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongodb\lib\core\connection\connect.js:264:5)
+    at Socket.<anonymous> (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongodb\lib\core\connection\connect.js:294:7)
+    at Object.onceWrapper (events.js:417:28)
+    at Socket.emit (events.js:311:20)
+    at Socket._onTimeout (net.js:478:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+    at Socket.emit (events.js:311:20)
+    at Socket._onTimeout (net.js:478:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+(node:15036) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:15036) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+(node:1672) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+(node:1672) UnhandledPromiseRejectionWarning: JsonWebTokenError: jwt must be provided
+    at Object.module.exports [as verify] (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\jsonwebtoken\verify.js:53:17)
+    at profile (C:\Users\rosiv\OneDrive\Área de Trabalho\test\src\controllers\usuarioControler.js:74:21)
+    at Layer.handle [as handle_request] (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\index.js:275:10)
+    at cors (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\cors\lib\index.js:188:7)
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\cors\lib\index.js:224:17
+    at originCallback (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\cors\lib\index.js:214:15)
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\cors\lib\index.js:204:7)
+(node:1672) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:1672) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process 
+with a non-zero exit code.
+
+
+PS C:\Users\rosiv\OneDrive\Área de Trabalho\test> npm run dev
+
+> crud@1.0.0 dev C:\Users\rosiv\OneDrive\Área de Trabalho\test
+> nodemon index.js
+
+[nodemon] 2.0.4
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching path(s): *.*
+[nodemon] watching extensions: js,mjs,json
+[nodemon] starting `node index.js`
+(node:11216) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+(node:11984) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+(node:12760) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+(node:13024) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+(node:1568) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+(node:13944) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+(node:5464) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+(node:4924) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+TypeError: User.findOne is not a function
+    at login (C:\Users\rosiv\OneDrive\Área de Trabalho\test\src\controllers\usuarioControler.js:44:9)
+    at Layer.handle [as handle_request] (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\index.js:275:10)
+    at cors (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\cors\lib\index.js:188:7)[nodemon] restarting due to changes...
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+(node:4340) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+(node:4340) UnhandledPromiseRejectionWarning: TypeError: User.findOne is not a function
+    at login (C:\Users\rosiv\OneDrive\Área de Trabalho\test\src\controllers\usuarioControler.js:44:14)
+    at Layer.handle [as handle_request] (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\index.js:275:10)
+    at cors (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\cors\lib\index.js:188:7)(node:4340) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:4340) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:4340) UnhandledPromiseRejectionWarning: TypeError: User.findOne is not a function
+    at login (C:\Users\rosiv\OneDrive\Área de Trabalho\test\src\controllers\usuarioControler.js:44:14)
+    at Layer.handle [as handle_request] (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\index.js:275:10)
+    at cors (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\cors\lib\index.js:188:7)(node:4340) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 2)
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+(node:10060) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+(node:10060) UnhandledPromiseRejectionWarning: TypeError: User.findOne is not a function
+    at login (C:\Users\rosiv\OneDrive\Área de Trabalho\test\src\controllers\usuarioControler.js:44:14)
+    at Layer.handle [as handle_request] (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\index.js:275:10)
+    at cors (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\cors\lib\index.js:188:7)    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\cors\lib\index.js:224:17      
+    at originCallback (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\cors\lib\index.js:214:15)
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\cors\lib\index.js:219:13      
+    at optionsCallback (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\cors\lib\index.js:204:7)
+    at Layer.handle [as handle_request] (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\index.js:317:13)
+(node:10060) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:10060) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+(node:9352) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+TypeError: User.findOne is not a function
+    at login (C:\Users\rosiv\OneDrive\Área de Trabalho\test\src\controllers\usuarioControler.js:44:9)
+    at Layer.handle [as handle_request] (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\index.js:275:10)
+    at cors (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\cors\lib\index.js:188:7)    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\cors\lib\index.js:224:17      
+    at originCallback (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\cors\lib\index.js:214:15)
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\cors\lib\index.js:219:13      
+    at optionsCallback (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\cors\lib\index.js:204:7)
+    at Layer.handle [as handle_request] (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\index.js:317:13)
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+(node:15744) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+(node:8500) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+(node:14980) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+internal/modules/cjs/loader.js:985
+  throw err;
+  ^
+
+Error: Cannot find module '../models/users'
+Require stack:
+- C:\Users\rosiv\OneDrive\Área de Trabalho\test\src\controllers\usuarioControler.js
+- C:\Users\rosiv\OneDrive\Área de Trabalho\test\src\routes\routes.js
+- C:\Users\rosiv\OneDrive\Área de Trabalho\test\index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:982:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:864:27)
+    at Module.require (internal/modules/cjs/loader.js:1044:19)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at Object.<anonymous> (C:\Users\rosiv\OneDrive\Área de Trabalho\test\src\controllers\usuarioControler.js:3:14)
+    at Module._compile (internal/modules/cjs/loader.js:1158:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1178:10)
+    at Module.load (internal/modules/cjs/loader.js:1002:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:901:14)
+    at Module.require (internal/modules/cjs/loader.js:1044:19)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at Object.<anonymous> (C:\Users\rosiv\OneDrive\Área de Trabalho\test\src\routes\routes.js:7:23)
+    at Module._compile (internal/modules/cjs/loader.js:1158:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1178:10)
+    at Module.load (internal/modules/cjs/loader.js:1002:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:901:14) {
+  code: 'MODULE_NOT_FOUND',
+    'C:\\Users\\rosiv\\OneDrive\\Área de Trabalho\\test\\src\\controllers\\usuarioControler.js',    'C:\\Users\\rosiv\\OneDrive\\Área de Trabalhs\\usuarioControler.js',o\\test\\src\\routes\\routes.js',                                       utes.js',
+    'C:\\Users\\rosiv\\OneDrive\\Área de Trabalho\\test\\index.js'      
+  ]
+}
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+(node:14500) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+(node:14552) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+(node:8456) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+C:\Users\rosiv\OneDrive\Área de Trabalho\test\src\controllers\usuarioControler.js:26
+            await User.create(userData)
+            ^^^^^
+
+SyntaxError: await is only valid in async function
+    at wrapSafe (internal/modules/cjs/loader.js:1072:16)
+    at Module._compile (internal/modules/cjs/loader.js:1122:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1178:10)
+    at Module.load (internal/modules/cjs/loader.js:1002:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:901:14)
+    at Module.require (internal/modules/cjs/loader.js:1044:19)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at Object.<anonymous> (C:\Users\rosiv\OneDrive\Área de Trabalho\test\src\routes\routes.js:7:23)
+    at Module._compile (internal/modules/cjs/loader.js:1158:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1178:10)
+    at Module.load (internal/modules/cjs/loader.js:1002:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:901:14)
+    at Module.require (internal/modules/cjs/loader.js:1044:19)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at Object.<anonymous> (C:\Users\rosiv\OneDrive\Área de Trabalho\test\index.js:23:21)        
+    at Module._compile (internal/modules/cjs/loader.js:1158:30)
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+(node:8324) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+(node:14964) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+(node:7344) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+(node:7708) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pas[nodemon] restarting due to changes...
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+(node:15264) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+
+
+}
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+(node:15460) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+(node:5228) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+(node:3360) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+(node:2268) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+SyntaxError: Unexpected token " in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\body-parser\lib\types\json.js:158:10)
+    at parse (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\body-parser\lib\types\json.js:83:15)
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\raw-body\index.js:224:16)
+    at done (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (events.js:323:22)
+    at endReadableNT (_stream_readable.js:1204:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+SyntaxError: Unexpected token " in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\body-parser\lib\types\json.js:158:10)
+    at parse (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\body-parser\lib\types\json.js:83:15)
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\raw-body\index.js:224:16)
+    at done (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (events.js:323:22)
+    at endReadableNT (_stream_readable.js:1204:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+SyntaxError: Unexpected token " in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\body-parser\lib\types\json.js:158:10)
+    at parse (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\body-parser\lib\types\json.js:83:15)
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\raw-body\index.js:224:16)
+    at done (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (events.js:323:22)
+    at endReadableNT (_stream_readable.js:1204:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+SyntaxError: Unexpected token " in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\body-parser\lib\types\json.js:158:10)
+    at parse (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\body-parser\lib\types\json.js:83:15)
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\raw-body\index.js:224:16)
+    at done (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (events.js:323:22)
+    at endReadableNT (_stream_readable.js:1204:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+[nodemon] restarting due to changes...
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+(node:16304) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+[nodemon] restarting due to changes...
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+(node:972) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+(node:2976) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+(node:6900) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+(node:6900) DeprecationWarning: collection.count is deprecated, and will be removed in a future version. Use Collection.countDocuments or Collection.estimatedDocumentCount instead
+[nodemon] restarting due to changes...
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+(node:15416) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+(node:15416) DeprecationWarning: collection.count is deprecated, and will be removed in a future version. Use Collection.countDocuments or Collection.estimatedDocumentCount instead
+[nodemon] restarting due to changes...
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+(node:8936) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+(node:8936) DeprecationWarning: collection.count is deprecated, and will be removed in a future version. Use Collection.countDocuments or Collection.estimatedDocumentCount instead
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+(node:1996) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+(node:1996) DeprecationWarning: collection.count is deprecated, and will be removed in a future version. Use Collection.countDocuments or Collection.estimatedDocumentCount instead
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+(node:9704) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+(node:9704) DeprecationWarning: collection.count is deprecated, and will be removed in a future version. Use Collection.countDocuments or Collection.estimatedDocumentCount instead
+[nodemon] restarting due to changes...
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+(node:15824) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+(node:15824) DeprecationWarning: collection.count is deprecated, and will be removed in a future version. Use Collection.countDocuments or Collection.estimatedDocumentCount instead
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+(node:4548) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+(node:4548) UnhandledPromiseRejectionWarning: TypeError: Cannot destructure property 'page' of 'req.query.marca' as it is undefined.
+    at index (C:\Users\rosiv\OneDrive\Área de Trabalho\test\src\controllers\marcarController.js:15:16)
+    at Layer.handle [as handle_request] (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\index.js:275:10)
+    at cors (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\cors\lib\index.js:188:7)
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\cors\lib\index.js:224:17
+    at originCallback (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\cors\lib\index.js:214:15)
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\cors\lib\index.js:204:7)
+    at Layer.handle [as handle_request] (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\layer.js:95:5)
+(node:4548) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:4548) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process 
+with a non-zero exit code.
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+(node:15864) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+(node:604) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+(node:604) DeprecationWarning: collection.count is deprecated, and will be removed in a future version. Use Collection.countDocuments or Collection.estimatedDocumentCount instead
+(node:604) UnhandledPromiseRejectionWarning: TypeError: Cannot read property 'length' of undefined
+    at index (C:\Users\rosiv\OneDrive\Área de Trabalho\test\src\controllers\marcarController.js:18:30)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+(node:604) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:604) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+[nodemon] restarting due to changes...
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+(node:6884) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+(node:6884) DeprecationWarning: collection.count is deprecated, and will be removed in a future version. Use Collection.countDocuments or Collection.estimatedDocumentCount instead
+(node:6884) UnhandledPromiseRejectionWarning: TypeError: Cannot read property 'length' of undefined
+    at index (C:\Users\rosiv\OneDrive\Área de Trabalho\test\src\controllers\marcarController.js:18:30)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+(node:6884) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:6884) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process 
+with a non-zero exit code.
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+(node:12564) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+(node:12564) DeprecationWarning: collection.count is deprecated, and will be removed in a future version. Use Collection.countDocuments or Collection.estimatedDocumentCount instead
+[nodemon] restarting due to changes...
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+(node:4696) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+(node:4696) DeprecationWarning: collection.count is deprecated, and will be removed in a future version. Use Collection.countDocuments or Collection.estimatedDocumentCount instead
+(node:4696) UnhandledPromiseRejectionWarning: TypeError: Cannot read property 'marca' of undefined
+    at index (C:\Users\rosiv\OneDrive\Área de Trabalho\test\src\controllers\marcarController.js:18:31)
+(node:4696) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:4696) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process 
+with a non-zero exit code.
+[nodemon] restarting due to changes...
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+(node:11796) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+(node:11796) DeprecationWarning: collection.count is deprecated, and will be removed in a future version. Use Collection.countDocuments or Collection.estimatedDocumentCount instead
+(node:11796) UnhandledPromiseRejectionWarning: TypeError: Cannot read property 'marca' of undefined
+    at index (C:\Users\rosiv\OneDrive\Área de Trabalho\test\src\controllers\marcarController.js:18:31)
+(node:11796) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:11796) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+
+
+[nodemon] 2.0.4
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching path(s): *.*
+[nodemon] watching extensions: js,mjs,json
+[nodemon] starting `node index.js`
+C:\Users\rosiv\OneDrive\Área de Trabalho\test\src\models\produto.js:23
+const MarcaSchema = new mongoose.Schema({
+^^^^^
+
+SyntaxError: Unexpected token 'const'
+    at wrapSafe (internal/modules/cjs/loader.js:1072:16)
+    at Module._compile (internal/modules/cjs/loader.js:1122:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1178:10)
+    at Module.load (internal/modules/cjs/loader.js:1002:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:901:14)
+    at Module.require (internal/modules/cjs/loader.js:1044:19)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at requireDir (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\require-dir\index.js:128:33)
+    at Object.<anonymous> (C:\Users\rosiv\OneDrive\Área de Trabalho\test\index.js:20:1)
+    at Module._compile (internal/modules/cjs/loader.js:1158:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1178:10)
+    at Module.load (internal/modules/cjs/loader.js:1002:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:901:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:74:12)
+    at internal/main/run_main_module.js:18:47
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+C:\Users\rosiv\OneDrive\Área de Trabalho\test\src\models\produto.js:23
+const MarcaSchema = new mongoose.Schema({
+^^^^^
+
+SyntaxError: Unexpected token 'const'
+    at wrapSafe (internal/modules/cjs/loader.js:1072:16)
+    at Module._compile (internal/modules/cjs/loader.js:1122:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1178:10)
+    at Module.load (internal/modules/cjs/loader.js:1002:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:901:14)
+    at Module.require (internal/modules/cjs/loader.js:1044:19)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at requireDir (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\require-dir\index.js:128:33)
+    at Object.<anonymous> (C:\Users\rosiv\OneDrive\Área de Trabalho\test\index.js:20:1)
+    at Module._compile (internal/modules/cjs/loader.js:1158:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1178:10)
+    at Module.load (internal/modules/cjs/loader.js:1002:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:901:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:74:12)
+    at internal/main/run_main_module.js:18:47
+[nodemon] app crashed - waiting for file changes before starting...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

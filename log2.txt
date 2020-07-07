@@ -1,0 +1,1110 @@
+d
+(node:3332) UnhandledPromiseRejectionWarning: ValidationError: Produto validation failed: categoria: Cast to ObjectID failed for value "" at path "categoria", marca: Cast to ObjectID failed for value "" at path "marca"
+    at new ValidationError (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\error\validation.js:31:11)
+    at model.Document.invalidate (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\document.js:2554:32)
+    at model.$set (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\document.js:1235:12)
+    at model._handleIndex (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\document.js:975:14)
+    at model.$set (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\document.js:917:22)
+    at model.Document (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\document.js:136:12)
+    at model.Model (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\model.js:104:12)
+    at new model (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\model.js:4668:15)
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\model.js:3105:22
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\model.js:3141:7
+    at Array.forEach (<anonymous>)
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\model.js:3140:15
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\helpers\promiseOrCallback.js:30:10)
+    at Function.create (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\model.js:3075:10)
+    at insert (C:\Users\rosiv\OneDrive\Área de Trabalho\test\src\controllers\ProdutoController.js:9:35)
+    at Layer.handle [as handle_request] (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\index.js:281:22
+(node:3332) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:3332) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process 
+with a non-zero exit code.
+(node:3332) UnhandledPromiseRejectionWarning: ValidationError: Produto validation failed: categoria: Cast to ObjectID failed for value "" at path "categoria", marca: Cast to ObjectID failed for value "" at path "marca"
+    at new ValidationError (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\error\validation.js:31:11)
+    at model.Document.invalidate (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\document.js:2554:32)
+    at model.$set (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\document.js:1235:12)
+    at model._handleIndex (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\document.js:975:14)
+    at model.$set (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\document.js:917:22)
+    at model.Document (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\document.js:136:12)
+    at model.Model (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\model.js:104:12)
+    at new model (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\model.js:4668:15)
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\model.js:3105:22
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\model.js:3141:7
+    at Array.forEach (<anonymous>)
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\model.js:3140:15
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\helpers\promiseOrCallback.js:30:10)
+    at Function.create (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\model.js:3075:10)
+    at insert (C:\Users\rosiv\OneDrive\Área de Trabalho\test\src\controllers\ProdutoController.js:9:35)
+    at Layer.handle [as handle_request] (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\index.js:281:22
+(node:3332) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 2)
+(node:3332) UnhandledPromiseRejectionWarning: ValidationError: Produto validation failed: categoria: Cast to ObjectID failed for value "" at path "categoria", marca: Cast to ObjectID failed for value "" at path "marca"
+    at new ValidationError (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\error\validation.js:31:11)
+    at model.Document.invalidate (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\document.js:2554:32)
+    at model.$set (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\document.js:1235:12)
+    at model._handleIndex (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\document.js:975:14)
+    at model.$set (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\document.js:917:22)
+    at model.Document (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\document.js:136:12)
+    at model.Model (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\model.js:104:12)
+    at new model (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\model.js:4668:15)
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\model.js:3105:22
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\model.js:3141:7
+    at Array.forEach (<anonymous>)
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\model.js:3140:15
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\helpers\promiseOrCallback.js:30:10)
+    at Function.create (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\model.js:3075:10)
+    at insert (C:\Users\rosiv\OneDrive\Área de Trabalho\test\src\controllers\ProdutoController.js:9:35)
+    at Layer.handle [as handle_request] (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\index.js:281:22
+(node:3332) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 3)
+(node:3332) UnhandledPromiseRejectionWarning: ValidationError: Produto validation failed: categoria: Cast to ObjectID failed for value "Rosivaldo de souza silva" at path "categoria", marca: Cast to ObjectID failed for value "" at path "marca"
+    at new ValidationError (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\error\validation.js:31:11)
+    at model.Document.invalidate (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\document.js:2554:32)
+    at model.$set (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\document.js:1235:12)
+    at model._handleIndex (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\document.js:975:14)
+    at model.$set (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\document.js:917:22)
+    at model.Document (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\document.js:136:12)
+    at model.Model (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\model.js:104:12)
+    at new model (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\model.js:4668:15)
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\model.js:3105:22
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\model.js:3141:7
+    at Array.forEach (<anonymous>)
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\model.js:3140:15
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\helpers\promiseOrCallback.js:30:10)
+    at Function.create (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\model.js:3075:10)
+    at insert (C:\Users\rosiv\OneDrive\Área de Trabalho\test\src\controllers\ProdutoController.js:9:35)
+    at Layer.handle [as handle_request] (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\index.js:281:22
+(node:3332) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 4)
+(node:3332) UnhandledPromiseRejectionWarning: ValidationError: Produto validation failed: categoria: Cast to ObjectID failed for value "Rosivaldo de souza silva" at path "categoria", marca: Cast to ObjectID failed for value "" at path "marca"
+    at new ValidationError (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\error\validation.js:31:11)
+    at model.Document.invalidate (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\document.js:2554:32)
+    at model.$set (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\document.js:1235:12)
+    at model._handleIndex (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\document.js:975:14)
+    at model.$set (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\document.js:917:22)
+    at model.Document (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\document.js:136:12)
+    at model.Model (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\model.js:104:12)
+    at new model (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\model.js:4668:15)
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\model.js:3105:22
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\model.js:3141:7
+    at Array.forEach (<anonymous>)
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\model.js:3140:15
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\helpers\promiseOrCallback.js:30:10)
+    at Function.create (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\model.js:3075:10)
+    at insert (C:\Users\rosiv\OneDrive\Área de Trabalho\test\src\controllers\ProdutoController.js:9:35)
+    at Layer.handle [as handle_request] (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\index.js:281:22
+(node:3332) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 5)
+[nodemon] restarting due to changes...
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+(node:3824) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+(node:3824) DeprecationWarning: collection.count is deprecated, and will be removed in a future version. Use Collection.countDocuments or Collection.estimatedDocumentCount instead
+(node:3824) UnhandledPromiseRejectionWarning: ValidationError: Produto validation failed: marca: Cast to ObjectID failed for value "" at path "marca"
+    at new ValidationError (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\error\validation.js:31:11)
+    at model.Document.invalidate (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\document.js:2554:32)
+    at model.$set (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\document.js:1235:12)
+    at model._handleIndex (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\document.js:975:14)
+    at model.$set (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\document.js:917:22)
+    at model.Document (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\document.js:136:12)
+    at model.Model (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\model.js:104:12)
+    at new model (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\model.js:4668:15)
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\model.js:3105:22
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\model.js:3141:7
+    at Array.forEach (<anonymous>)
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\model.js:3140:15
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\helpers\promiseOrCallback.js:30:10)
+    at Function.create (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\model.js:3075:10)
+    at insert (C:\Users\rosiv\OneDrive\Área de Trabalho\test\src\controllers\ProdutoController.js:13:38)
+    at Layer.handle [as handle_request] (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\index.js:281:22
+(node:3824) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:3824) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process 
+with a non-zero exit code.
+(node:3824) UnhandledPromiseRejectionWarning: ValidationError: Produto validation failed: marca: Cast to ObjectID failed for value "" at path "marca"
+    at new ValidationError (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\error\validation.js:31:11)
+    at model.Document.invalidate (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\document.js:2554:32)
+    at model.$set (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\document.js:1235:12)
+    at model._handleIndex (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\document.js:975:14)
+    at model.$set (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\document.js:917:22)
+    at model.Document (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\document.js:136:12)
+    at model.Model (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\model.js:104:12)
+    at new model (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\model.js:4668:15)
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\model.js:3105:22
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\model.js:3141:7
+    at Array.forEach (<anonymous>)
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\model.js:3140:15
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\helpers\promiseOrCallback.js:30:10)
+    at Function.create (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\model.js:3075:10)
+    at insert (C:\Users\rosiv\OneDrive\Área de Trabalho\test\src\controllers\ProdutoController.js:13:38)
+    at Layer.handle [as handle_request] (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\index.js:281:22
+(node:3824) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 2)
+(node:3824) UnhandledPromiseRejectionWarning: ValidationError: Produto validation failed: marca: Cast to ObjectID failed for value "" at path "marca"
+    at new ValidationError (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\error\validation.js:31:11)
+    at model.Document.invalidate (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\document.js:2554:32)
+    at model.$set (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\document.js:1235:12)
+    at model._handleIndex (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\document.js:975:14)
+    at model.$set (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\document.js:917:22)
+    at model.Document (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\document.js:136:12)
+    at model.Model (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\model.js:104:12)
+    at new model (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\model.js:4668:15)
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\model.js:3105:22
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\model.js:3141:7
+    at Array.forEach (<anonymous>)
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\model.js:3140:15
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\helpers\promiseOrCallback.js:30:10)
+    at Function.create (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\model.js:3075:10)
+    at insert (C:\Users\rosiv\OneDrive\Área de Trabalho\test\src\controllers\ProdutoController.js:13:38)
+    at Layer.handle [as handle_request] (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\index.js:281:22
+(node:3824) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 3)
+[nodemon] restarting due to changes...
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+(node:14544) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+
+
+    at model.$set (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\document.js:1235:12)
+    at model._handleIndex (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\document.js:975:14)
+    at model.$set (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\document.js:917:22)
+    at model.Document (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\document.js:136:12)
+    at model.Model (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\model.js:104:12)
+    at new model (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\model.js:4668:15)
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\model.js:3105:22
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\model.js:3141:7
+    at Array.forEach (<anonymous>)
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\model.js:3140:15
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\helpers\promiseOrCallback.js:30:10)
+    at Function.create (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\model.js:3075:10)
+    at insert (C:\Users\rosiv\OneDrive\Área de Trabalho\test\src\controllers\ProdutoController.js:13:38)
+    at Layer.handle [as handle_request] (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\index.js:281:22
+(node:14544) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 15)
+[nodemon] restarting due to changes...
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+(node:7988) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+(node:7988) DeprecationWarning: collection.count is deprecated, and will be removed in a future version. Use Collection.countDocuments or Collection.estimatedDocumentCount instead
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+(node:17088) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+(node:17088) UnhandledPromiseRejectionWarning: MongoNetworkError: failed to connect to server [localhost:27017] on first connect [MongoNetworkError: connection timed out
+    at connectionFailureError (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongodb\lib\core\connection\connect.js:406:14)
+    at Socket.<anonymous> (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongodb\lib\core\connection\connect.js:294:16)
+    at Object.onceWrapper (events.js:417:28)
+    at Socket.emit (events.js:311:20)
+    at Socket._onTimeout (net.js:478:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7) {
+  name: 'MongoNetworkError',
+  [Symbol(mongoErrorContextSymbol)]: {}
+}]
+    at Pool.<anonymous> (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongodb\lib\core\topologies\server.js:438:11)
+    at Pool.emit (events.js:311:20)
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongodb\lib\core\connection\pool.js:561:14
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongodb\lib\core\connection\pool.js:994:11
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongodb\lib\core\connection\connect.js:31:7
+    at callback (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongodb\lib\core\connection\connect.js:264:5)
+    at Socket.<anonymous> (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongodb\lib\core\connection\connect.js:294:7)
+    at Object.onceWrapper (events.js:417:28)
+    at Socket.emit (events.js:311:20)
+    at Socket._onTimeout (net.js:478:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+(node:17088) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:17088) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+(node:6640) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+(node:6640) DeprecationWarning: collection.count is deprecated, and will be removed in a future version. Use Collection.countDocuments or Collection.estimatedDocumentCount instead
+(node:6640) UnhandledPromiseRejectionWarning: ValidationError: Produto validation failed: categoria: Cast to ObjectID failed for value "" at path "categoria"
+    at new ValidationError (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\error\validation.js:31:11)
+    at model.Document.invalidate (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\document.js:2554:32)
+    at model.$set (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\document.js:1235:12)
+    at model._handleIndex (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\document.js:975:14)
+    at model.$set (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\document.js:917:22)
+    at model.Document (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\document.js:136:12)
+    at model.Model (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\model.js:104:12)
+    at new model (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\model.js:4668:15)
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\model.js:3105:22
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\model.js:3141:7
+    at Array.forEach (<anonymous>)
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\model.js:3140:15
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\helpers\promiseOrCallback.js:30:10)
+    at Function.create (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\model.js:3075:10)
+    at insert (C:\Users\rosiv\OneDrive\Área de Trabalho\test\src\controllers\ProdutoController.js:10:38)
+    at Layer.handle [as handle_request] (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\index.js:281:22
+(node:6640) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:6640) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process 
+with a non-zero exit code.
+
+(node:6640) UnhandledPromiseRejectionWarning: ValidationError: Produto validation failed: categoria: Cast to ObjectID failed for value "" at path "categoria"
+    at new ValidationError (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\error\validation.js:31:11)
+    at model.Document.invalidate (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\document.js:2554:32)
+    at model.$set (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\document.js:1235:12)
+    at model._handleIndex (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\document.js:975:14)
+    at model.$set (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\document.js:917:22)
+    at model.Document (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\document.js:136:12)
+    at model.Model (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\model.js:104:12)
+    at new model (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\model.js:4668:15)
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\model.js:3105:22
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\model.js:3141:7
+    at Array.forEach (<anonymous>)
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\model.js:3140:15
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\helpers\promiseOrCallback.js:30:10)
+    at Function.create (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\model.js:3075:10)
+    at insert (C:\Users\rosiv\OneDrive\Área de Trabalho\test\src\controllers\ProdutoController.js:10:38)
+    at Layer.handle [as handle_request] (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\index.js:281:22
+(node:6640) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 2)
+[nodemon] restarting due to changes...
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+(node:11072) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+(node:11072) DeprecationWarning: collection.count is deprecated, and will be removed in a future version. Use Collection.countDocuments or Collection.estimatedDocumentCount instead
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+(node:7068) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+(node:12508) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+(node:3828) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+(node:3828) DeprecationWarning: collection.count is deprecated, and will be removed in a future version. Use Collection.countDocuments or Collection.estimatedDocumentCount instead
+(node:3828) UnhandledPromiseRejectionWarning: ValidationError: Produto validation failed: categoria: Cast to ObjectID failed for value "Query {
+  _mongooseOptions: {},
+  _transforms: [],
+  _hooks: Kareem { _pres: Map {}, _posts: Map {} },
+  _executionCount: 0,
+  mongooseCollection: NativeCollection {
+    collection: Collection { s: [Object] },
+    Promise: [Function: Promise],
+    _closed: false,
+    opts: {
+      bufferCommands: true,
+      capped: false,
+      autoCreate: undefined,
+      Promise: [Function: Promise],
+      '$wasForceClosed': undefined
+    },
+    name: 'categorias',
+    collectionName: 'categorias',
+    conn: NativeConnection {
+      base: [Mongoose],
+      collections: [Object],
+      models: [Object],
+      config: [Object],
+      replica: false,
+      options: null,
+      otherDbs: [],
+      relatedDbs: {},
+      states: [Object: null prototype],
+      _readyState: 1,
+      _closeCalled: false,
+      _hasOpened: true,
+      plugins: [],
+      id: 0,
+      _listening: false,
+      _connectionOptions: [Object],
+      name: 'myPharma',
+      host: 'localhost',
+      port: 27017,
+      user: undefined,
+      pass: undefined,
+      client: [MongoClient],
+      '$initialConnection': [Promise],
+      db: [Db]
+    },
+    queue: [],
+    buffer: false,
+    emitter: EventEmitter {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: undefined,
+      [Symbol(kCapture)]: false
+    }
+  },
+  model: Model { Categoria },
+  schema: Schema {
+    obj: { nome: [Object], descricao: [Object] },
+    paths: {
+      nome: [SchemaString],
+      descricao: [SchemaString],
+      _id: [ObjectId],
+      __v: [SchemaNumber]
+    },
+    aliases: {},
+    subpaths: {},
+    virtuals: { id: [VirtualType] },
+    singleNestedPaths: {},
+    nested: {},
+    inherits: {},
+    callQueue: [],
+    _indexes: [],
+    methods: {},
+    methodOptions: {},
+    statics: { paginate: [Function: paginate] },
+    tree: {
+      nome: [Object],
+      descricao: [Object],
+      _id: [Object],
+      __v: [Function: Number],
+      id: [VirtualType]
+    },
+    query: {},
+    childSchemas: [],
+    plugins: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+    '$id': 2,
+    s: { hooks: [Kareem] },
+    _userProvidedOptions: {},
+    options: {
+      typePojoToMixed: true,
+      typeKey: 'type',
+      id: true,
+      noVirtualId: false,
+      _id: true,
+      noId: false,
+      validateBeforeSave: true,
+      read: null,
+      shardKey: null,
+      autoIndex: null,
+      minimize: true,
+      discriminatorKey: '__t',
+      versionKey: '__v',
+      capped: false,
+      bufferCommands: true,
+      strict: true,
+      pluralization: true
+    },
+    '$globalPluginsApplied': true,
+    _requiredpaths: []
+  },
+  op: 'findOne',
+  options: {},
+  _conditions: { nome: '' },
+  _fields: undefined,
+  _update: undefined,
+  _path: undefined,
+  _distinct: undefined,
+  _collection: NodeCollection {
+    collection: NativeCollection {
+      collection: [Collection],
+      Promise: [Function: Promise],
+      _closed: false,
+      opts: [Object],
+      name: 'categorias',
+      collectionName: 'categorias',
+      conn: [NativeConnection],
+      queue: [],
+      buffer: false,
+      emitter: [EventEmitter]
+    },
+    collectionName: 'categorias'
+  },
+  _traceFunction: undefined,
+  '$useProjection': true
+}" at path "categoria"
+    at new ValidationError (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\error\validation.js:31:11)
+    at model.Document.invalidate (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\document.js:2554:32)
+    at model.$set (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\document.js:1235:12)
+    at model._handleIndex (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\document.js:975:14)
+    at model.$set (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\document.js:917:22)
+    at model.Document (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\document.js:136:12)
+    at model.Model (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\model.js:104:12)
+    at new model (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\model.js:4668:15)
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\model.js:3105:22
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\model.js:3141:7
+    at Array.forEach (<anonymous>)
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\model.js:3140:15
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\helpers\promiseOrCallback.js:30:10)
+    at Function.create (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\model.js:3075:10)
+    at insert (C:\Users\rosiv\OneDrive\Área de Trabalho\test\src\controllers\ProdutoController.js:13:38)
+    at Layer.handle [as handle_request] (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\index.js:281:22
+(node:3828) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:3828) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process 
+with a non-zero exit code.
+(node:3828) UnhandledPromiseRejectionWarning: ValidationError: Produto validation failed: categoria: Cast to ObjectID failed for value "Query {
+  _mongooseOptions: {},
+  _transforms: [],
+  _hooks: Kareem { _pres: Map {}, _posts: Map {} },
+  _executionCount: 0,
+  mongooseCollection: NativeCollection {
+    collection: Collection { s: [Object] },
+    Promise: [Function: Promise],
+    _closed: false,
+    opts: {
+      bufferCommands: true,
+      capped: false,
+      autoCreate: undefined,
+      Promise: [Function: Promise],
+      '$wasForceClosed': undefined
+    },
+    name: 'categorias',
+    collectionName: 'categorias',
+    conn: NativeConnection {
+      base: [Mongoose],
+      collections: [Object],
+      models: [Object],
+      config: [Object],
+      replica: false,
+      options: null,
+      otherDbs: [],
+      relatedDbs: {},
+      states: [Object: null prototype],
+      _readyState: 1,
+      _closeCalled: false,
+      _hasOpened: true,
+      plugins: [],
+      id: 0,
+      _listening: false,
+      _connectionOptions: [Object],
+      name: 'myPharma',
+      host: 'localhost',
+      port: 27017,
+      user: undefined,
+      pass: undefined,
+      client: [MongoClient],
+      '$initialConnection': [Promise],
+      db: [Db]
+    },
+    queue: [],
+    buffer: false,
+    emitter: EventEmitter {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: undefined,
+      [Symbol(kCapture)]: false
+    }
+  },
+  model: Model { Categoria },
+  schema: Schema {
+    obj: { nome: [Object], descricao: [Object] },
+    paths: {
+      nome: [SchemaString],
+      descricao: [SchemaString],
+      _id: [ObjectId],
+      __v: [SchemaNumber]
+    },
+    aliases: {},
+    subpaths: {},
+    virtuals: { id: [VirtualType] },
+    singleNestedPaths: {},
+    nested: {},
+    inherits: {},
+    callQueue: [],
+    _indexes: [],
+    methods: {},
+    methodOptions: {},
+    statics: { paginate: [Function: paginate] },
+    tree: {
+      nome: [Object],
+      descricao: [Object],
+      _id: [Object],
+      __v: [Function: Number],
+      id: [VirtualType]
+    },
+    query: {},
+    childSchemas: [],
+    plugins: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+    '$id': 2,
+    s: { hooks: [Kareem] },
+    _userProvidedOptions: {},
+    options: {
+      typePojoToMixed: true,
+      typeKey: 'type',
+      id: true,
+      noVirtualId: false,
+      _id: true,
+      noId: false,
+      validateBeforeSave: true,
+      read: null,
+      shardKey: null,
+      autoIndex: null,
+      minimize: true,
+      discriminatorKey: '__t',
+      versionKey: '__v',
+      capped: false,
+      bufferCommands: true,
+      strict: true,
+      pluralization: true
+    },
+    '$globalPluginsApplied': true,
+    _requiredpaths: []
+  },
+  op: 'findOne',
+  options: {},
+  _conditions: { nome: '' },
+  _fields: undefined,
+  _update: undefined,
+  _path: undefined,
+  _distinct: undefined,
+  _collection: NodeCollection {
+    collection: NativeCollection {
+      collection: [Collection],
+      Promise: [Function: Promise],
+      _closed: false,
+      opts: [Object],
+      name: 'categorias',
+      collectionName: 'categorias',
+      conn: [NativeConnection],
+      queue: [],
+      buffer: false,
+      emitter: [EventEmitter]
+    },
+    collectionName: 'categorias'
+  },
+  _traceFunction: undefined,
+  '$useProjection': true
+}" at path "categoria"
+    at new ValidationError (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\error\validation.js:31:11)
+    at model.Document.invalidate (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\document.js:2554:32)
+    at model.$set (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\document.js:1235:12)
+    at model._handleIndex (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\document.js:975:14)
+    at model.$set (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\document.js:917:22)
+    at model.Document (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\document.js:136:12)
+    at model.Model (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\model.js:104:12)
+    at new model (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\model.js:4668:15)
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\model.js:3105:22
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\model.js:3141:7
+    at Array.forEach (<anonymous>)
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\model.js:3140:15
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\helpers\promiseOrCallback.js:30:10)
+    at Function.create (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\model.js:3075:10)
+    at insert (C:\Users\rosiv\OneDrive\Área de Trabalho\test\src\controllers\ProdutoController.js:13:38)
+    at Layer.handle [as handle_request] (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\index.js:281:22
+(node:3828) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 2)
+(node:3828) UnhandledPromiseRejectionWarning: ValidationError: Produto validation failed: categoria: Cast to ObjectID failed for value "Query {
+  _mongooseOptions: {},
+  _transforms: [],
+  _hooks: Kareem { _pres: Map {}, _posts: Map {} },
+  _executionCount: 0,
+  mongooseCollection: NativeCollection {
+    collection: Collection { s: [Object] },
+    Promise: [Function: Promise],
+    _closed: false,
+    opts: {
+      bufferCommands: true,
+      capped: false,
+      autoCreate: undefined,
+      Promise: [Function: Promise],
+      '$wasForceClosed': undefined
+    },
+    name: 'categorias',
+    collectionName: 'categorias',
+    conn: NativeConnection {
+      base: [Mongoose],
+      collections: [Object],
+      models: [Object],
+      config: [Object],
+      replica: false,
+      options: null,
+      otherDbs: [],
+      relatedDbs: {},
+      states: [Object: null prototype],
+      _readyState: 1,
+      _closeCalled: false,
+      _hasOpened: true,
+      plugins: [],
+      id: 0,
+      _listening: false,
+      _connectionOptions: [Object],
+      name: 'myPharma',
+      host: 'localhost',
+      port: 27017,
+      user: undefined,
+      pass: undefined,
+      client: [MongoClient],
+      '$initialConnection': [Promise],
+      db: [Db]
+    },
+    queue: [],
+    buffer: false,
+    emitter: EventEmitter {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: undefined,
+      [Symbol(kCapture)]: false
+    }
+  },
+  model: Model { Categoria },
+  schema: Schema {
+    obj: { nome: [Object], descricao: [Object] },
+    paths: {
+      nome: [SchemaString],
+      descricao: [SchemaString],
+      _id: [ObjectId],
+      __v: [SchemaNumber]
+    },
+    aliases: {},
+    subpaths: {},
+    virtuals: { id: [VirtualType] },
+    singleNestedPaths: {},
+    nested: {},
+    inherits: {},
+    callQueue: [],
+    _indexes: [],
+    methods: {},
+    methodOptions: {},
+    statics: { paginate: [Function: paginate] },
+    tree: {
+      nome: [Object],
+      descricao: [Object],
+      _id: [Object],
+      __v: [Function: Number],
+      id: [VirtualType]
+    },
+    query: {},
+    childSchemas: [],
+    plugins: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+    '$id': 2,
+    s: { hooks: [Kareem] },
+    _userProvidedOptions: {},
+    options: {
+      typePojoToMixed: true,
+      typeKey: 'type',
+      id: true,
+      noVirtualId: false,
+      _id: true,
+      noId: false,
+      validateBeforeSave: true,
+      read: null,
+      shardKey: null,
+      autoIndex: null,
+      minimize: true,
+      discriminatorKey: '__t',
+      versionKey: '__v',
+      capped: false,
+      bufferCommands: true,
+      strict: true,
+      pluralization: true
+    },
+    '$globalPluginsApplied': true,
+    _requiredpaths: []
+  },
+  op: 'findOne',
+  options: {},
+  _conditions: { nome: '' },
+  _fields: undefined,
+  _update: undefined,
+  _path: undefined,
+  _distinct: undefined,
+  _collection: NodeCollection {
+    collection: NativeCollection {
+      collection: [Collection],
+      Promise: [Function: Promise],
+      _closed: false,
+      opts: [Object],
+      name: 'categorias',
+      collectionName: 'categorias',
+      conn: [NativeConnection],
+      queue: [],
+      buffer: false,
+      emitter: [EventEmitter]
+    },
+    collectionName: 'categorias'
+  },
+  _traceFunction: undefined,
+  '$useProjection': true
+}" at path "categoria"
+    at new ValidationError (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\error\validation.js:31:11)
+    at model.Document.invalidate (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\document.js:2554:32)
+    at model.$set (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\document.js:1235:12)
+    at model._handleIndex (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\document.js:975:14)
+    at model.$set (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\document.js:917:22)
+    at model.Document (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\document.js:136:12)
+    at model.Model (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\model.js:104:12)
+    at new model (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\model.js:4668:15)
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\model.js:3105:22
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\model.js:3141:7
+    at Array.forEach (<anonymous>)
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\model.js:3140:15
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\helpers\promiseOrCallback.js:30:10)
+    at Function.create (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\model.js:3075:10)
+    at insert (C:\Users\rosiv\OneDrive\Área de Trabalho\test\src\controllers\ProdutoController.js:13:38)
+    at Layer.handle [as handle_request] (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\index.js:281:22
+(node:3828) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 3)
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+(node:11664) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+(node:11664) UnhandledPromiseRejectionWarning: ValidationError: Produto validation failed: categoria: Cast to ObjectID failed for value "" at path "categoria"
+    at new ValidationError (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\error\validation.js:31:11)
+    at model.Document.invalidate (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\document.js:2554:32)
+    at model.$set (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\document.js:1235:12)
+    at model._handleIndex (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\document.js:975:14)
+    at model.$set (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\document.js:917:22)
+    at model.Document (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\document.js:136:12)
+    at model.Model (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\model.js:104:12)
+    at new model (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\model.js:4668:15)
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\model.js:3105:22
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\model.js:3141:7
+    at Array.forEach (<anonymous>)
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\model.js:3140:15
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\helpers\promiseOrCallback.js:30:10)
+    at Function.create (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\model.js:3075:10)
+    at insert (C:\Users\rosiv\OneDrive\Área de Trabalho\test\src\controllers\ProdutoController.js:10:38)
+    at Layer.handle [as handle_request] (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\index.js:281:22
+(node:11664) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:11664) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:11664) UnhandledPromiseRejectionWarning: ValidationError: Produto validation failed: categoria: Cast to ObjectID failed for value "" at path "categoria"
+    at new ValidationError (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\error\validation.js:31:11)
+    at model.Document.invalidate (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\document.js:2554:32)
+    at model.$set (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\document.js:1235:12)
+    at model._handleIndex (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\document.js:975:14)
+    at model.$set (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\document.js:917:22)
+    at model.Document (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\document.js:136:12)
+    at model.Model (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\model.js:104:12)
+    at new model (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\model.js:4668:15)
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\model.js:3105:22
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\model.js:3141:7
+    at Array.forEach (<anonymous>)
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\model.js:3140:15
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\helpers\promiseOrCallback.js:30:10)
+    at Function.create (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\mongoose\lib\model.js:3075:10)
+    at insert (C:\Users\rosiv\OneDrive\Área de Trabalho\test\src\controllers\ProdutoController.js:10:38)
+    at Layer.handle [as handle_request] (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\node_modules\express\lib\router\index.js:281:22
+(node:11664) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 2)
+(node:11664) DeprecationWarning: collection.count is deprecated, and will be removed in a future version. Use Collection.countDocuments or Collection.estimatedDocumentCount instead
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+C:\Users\rosiv\OneDrive\Área de Trabalho\test\src\controllers\ProdutoController.js:17
+            const produt = await Produto.create(produ);
+                           ^^^^^
+
+SyntaxError: await is only valid in async function
+    at wrapSafe (internal/modules/cjs/loader.js:1072:16)
+    at Module._compile (internal/modules/cjs/loader.js:1122:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1178:10)
+    at Module.load (internal/modules/cjs/loader.js:1002:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:901:14)
+    at Module.require (internal/modules/cjs/loader.js:1044:19)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at Object.<anonymous> (C:\Users\rosiv\OneDrive\Área de Trabalho\test\src\routes\routes.js:9:27)
+    at Module._compile (internal/modules/cjs/loader.js:1158:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1178:10)
+    at Module.load (internal/modules/cjs/loader.js:1002:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:901:14)
+    at Module.require (internal/modules/cjs/loader.js:1044:19)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at Object.<anonymous> (C:\Users\rosiv\OneDrive\Área de Trabalho\test\index.js:23:21)
+    at Module._compile (internal/modules/cjs/loader.js:1158:30)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at Object.<anonymous> (C:\Users\rosiv\OneDrive\Área de Trabalho\test\src\routes\routes.js:9:27)
+    at Module._compile (internal/modules/cjs/loader.js:1158:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1178:10)
+    at Module.load (internal/modules/cjs/loader.js:1002:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:901:14)
+    at Module.require (internal/modules/cjs/loader.js:1044:19)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at Object.<anonymous> (C:\Users\rosiv\OneDrive\Área de Trabalho\test\index.js:23:21)
+    at Module._compile (internal/modules/cjs/loader.js:1158:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1178:10)
+    at Module.load (internal/modules/cjs/loader.js:1002:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:901:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:74:12)
+    at internal/main/run_main_module.js:18:47
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+(node:12676) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+(node:12676) DeprecationWarning: collection.count is deprecated, and will be removed in a future version. Use Collection.countDocuments or Collection.estimatedDocumentCount instead
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+(node:11932) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+(node:11932) DeprecationWarning: collection.count is deprecated, and will be removed in a future version. Use Collection.countDocuments or Collection.estimatedDocumentCount instead
+(node:11932) UnhandledPromiseRejectionWarning: ReferenceError: mae_id is not defined
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\src\controllers\ProdutoController.js:19:28
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+(node:11932) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:11932) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:11932) UnhandledPromiseRejectionWarning: ReferenceError: mae_id is not defined
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\src\controllers\ProdutoController.js:19:28
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+(node:11932) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 2)
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+(node:14320) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+(node:14320) DeprecationWarning: collection.count is deprecated, and will be removed in a future version. Use Collection.countDocuments or Collection.estimatedDocumentCount instead
+(node:14320) UnhandledPromiseRejectionWarning: TypeError: Cannot read property '_id' of null   
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\src\controllers\ProdutoController.js:18:41
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+(node:14320) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:14320) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+[nodemon] restarting due to changes...
+[nodemon] restarting due to changes...
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+(node:12768) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+(node:12768) UnhandledPromiseRejectionWarning: TypeError: Cannot read property '_id' of null
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\src\controllers\ProdutoController.js:18:41
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+(node:12768) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:12768) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:12768) DeprecationWarning: collection.count is deprecated, and will be removed in a future version. Use Collection.countDocuments or Collection.estimatedDocumentCount instead
+(node:12768) UnhandledPromiseRejectionWarning: TypeError: Cannot read property '_id' of null
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\src\controllers\ProdutoController.js:18:41
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+(node:12768) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 2)
+[nodemon] restarting due to changes...
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+(node:17280) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+(node:17280) UnhandledPromiseRejectionWarning: TypeError: Cannot read property '_id' of null
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\src\controllers\ProdutoController.js:17:41
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async insert (C:\Users\rosiv\OneDrive\Área de Trabalho\test\src\controllers\ProdutoController.js:11:9)
+(node:17280) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:17280) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:17280) DeprecationWarning: collection.count is deprecated, and will be removed in a future version. Use Collection.countDocuments or Collection.estimatedDocumentCount instead
+(node:17280) UnhandledPromiseRejectionWarning: TypeError: Cannot read property '_id' of null
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\src\controllers\ProdutoController.js:17:41
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async insert (C:\Users\rosiv\OneDrive\Área de Trabalho\test\src\controllers\ProdutoController.js:11:9)
+(node:17280) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 2)
+(node:17280) UnhandledPromiseRejectionWarning: TypeError: Cannot read property '_id' of null
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\src\controllers\ProdutoController.js:17:41
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async insert (C:\Users\rosiv\OneDrive\Área de Trabalho\test\src\controllers\ProdutoController.js:11:9)
+(node:17280) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 3)
+[nodemon] restarting due to changes...
+/nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 2)
+(node:17280) UnhandledPromiseRejectionWarning: TypeError: Cannot read property '_id' of null
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\src\controllers\ProdutoController.js:17:41
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async insert (C:\Users\rosiv\OneDrive\Área de Trabalho\test\src\controllers\ProdutoController.js:11:9)
+(node:17280) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 3)
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+(node:14352) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+(node:14352) DeprecationWarning: collection.count is deprecated, and will be removed in a future version. Use Collection.countDocuments or Collection.estimatedDocumentCount instead
+(node:14352) UnhandledPromiseRejectionWarning: ReferenceError: mar is not defined
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\src\controllers\ProdutoController.js:18:28
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\rosiv\OneDrive\Área de Trabalho\test\src\controllers\ProdutoController.js:12:10
+    at async insert (C:\Users\rosiv\OneDrive\Área de Trabalho\test\src\controllers\ProdutoController.js:11:9)
+(node:14352) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:14352) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+(node:9864) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+(node:9864) UnhandledPromiseRejectionWarning: ReferenceError: mar is not defined
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\src\controllers\ProdutoController.js:18:28
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\rosiv\OneDrive\Área de Trabalho\test\src\controllers\ProdutoController.js:12:10
+    at async insert (C:\Users\rosiv\OneDrive\Área de Trabalho\test\src\controllers\ProdutoController.js:11:9)
+(node:9864) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 2)
+(node:9864) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process 
+with a non-zero exit code.
+(node:9864) DeprecationWarning: collection.count is deprecated, and will be removed in a future version. Use Collection.countDocuments or Collection.estimatedDocumentCount instead
+(node:9864) UnhandledPromiseRejectionWarning: TypeError: Cannot read property '_id' of null
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\src\controllers\ProdutoController.js:17:41
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\rosiv\OneDrive\Área de Trabalho\test\src\controllers\ProdutoController.js:12:10
+    at async insert (C:\Users\rosiv\OneDrive\Área de Trabalho\test\src\controllers\ProdutoController.js:11:9)
+(node:9864) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 4)
+[nodemon] restarting due to changes...
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+(node:6268) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+(node:6268) UnhandledPromiseRejectionWarning: TypeError: Cannot read property '_id' of null
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\src\controllers\ProdutoController.js:17:41
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\rosiv\OneDrive\Área de Trabalho\test\src\controllers\ProdutoController.js:12:10
+    at async insert (C:\Users\rosiv\OneDrive\Área de Trabalho\test\src\controllers\ProdutoController.js:11:9)
+(node:6268) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 2)
+(node:6268) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process 
+with a non-zero exit code.
+(node:6268) DeprecationWarning: collection.count is deprecated, and will be removed in a future version. Use Collection.countDocuments or Collection.estimatedDocumentCount instead
+(node:6268) UnhandledPromiseRejectionWarning: TypeError: Cannot read property '_id' of null
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\src\controllers\ProdutoController.js:17:41
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\rosiv\OneDrive\Área de Trabalho\test\src\controllers\ProdutoController.js:12:10
+    at async insert (C:\Users\rosiv\OneDrive\Área de Trabalho\test\src\controllers\ProdutoController.js:11:9)
+(node:6268) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 4)
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+(node:15188) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+(node:15188) UnhandledPromiseRejectionWarning: TypeError: Cannot read property '_id' of null
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\src\controllers\ProdutoController.js:17:41
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\rosiv\OneDrive\Área de Trabalho\test\src\controllers\ProdutoController.js:12:10
+    at async insert (C:\Users\rosiv\OneDrive\Área de Trabalho\test\src\controllers\ProdutoController.js:11:9)
+(node:15188) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 2)
+(node:15188) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+(node:17348) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+(node:17348) DeprecationWarning: collection.count is deprecated, and will be removed in a future version. Use Collection.countDocuments or Collection.estimatedDocumentCount instead
+(node:17348) UnhandledPromiseRejectionWarning: TypeError: Cannot read property '_id' of null
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\src\controllers\ProdutoController.js:17:41
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async insert (C:\Users\rosiv\OneDrive\Área de Trabalho\test\src\controllers\ProdutoController.js:11:9)
+(node:17348) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:17348) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+(node:14796) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+(node:14796) UnhandledPromiseRejectionWarning: TypeError: Cannot read property '_id' of null
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\src\controllers\ProdutoController.js:17:41
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async insert (C:\Users\rosiv\OneDrive\Área de Trabalho\test\src\controllers\ProdutoController.js:11:9)
+(node:14796) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:14796) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:14796) UnhandledPromiseRejectionWarning: TypeError: Cannot read property '_id' of null
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\src\controllers\ProdutoController.js:17:41
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async insert (C:\Users\rosiv\OneDrive\Área de Trabalho\test\src\controllers\ProdutoController.js:11:9)
+(node:14796) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 2)
+(node:14796) DeprecationWarning: collection.count is deprecated, and will be removed in a future version. Use Collection.countDocuments or Collection.estimatedDocumentCount instead
+(node:14796) UnhandledPromiseRejectionWarning: TypeError: Cannot read property '_id' of null
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\src\controllers\ProdutoController.js:17:41
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async insert (C:\Users\rosiv\OneDrive\Área de Trabalho\test\src\controllers\ProdutoController.js:11:9)
+(node:14796) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 3)
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+(node:14944) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+(node:14944) UnhandledPromiseRejectionWarning: TypeError: Cannot read property '_id' of null
+    at C:\Users\rosiv\OneDrive\Área de Trabalho\test\src\controllers\ProdutoController.js:17:41
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async insert (C:\Users\rosiv\OneDrive\Área de Trabalho\test\src\controllers\ProdutoController.js:11:9)
+(node:14944) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:14944) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+C:\Users\rosiv\OneDrive\Área de Trabalho\test\src\controllers\ProdutoController.js:18
+                    marca: req.body.marca
+                    ^^^^^
+
+SyntaxError: Unexpected identifier
+    at wrapSafe (internal/modules/cjs/loader.js:1072:16)
+    at Module._compile (internal/modules/cjs/loader.js:1122:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1178:10)
+    at Module.load (internal/modules/cjs/loader.js:1002:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:901:14)
+    at Module.require (internal/modules/cjs/loader.js:1044:19)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at Object.<anonymous> (C:\Users\rosiv\OneDrive\Área de Trabalho\test\src\routes\routes.js:9:27)
+    at Module._compile (internal/modules/cjs/loader.js:1158:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1178:10)
+    at Module.load (internal/modules/cjs/loader.js:1002:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:901:14)
+    at Module.require (internal/modules/cjs/loader.js:1044:19)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at Object.<anonymous> (C:\Users\rosiv\OneDrive\Área de Trabalho\test\index.js:23:21)
+    at Module._compile (internal/modules/cjs/loader.js:1158:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1178:10)
+    at Module.load (internal/modules/cjs/loader.js:1002:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:901:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:74:12)
+    at internal/main/run_main_module.js:18:47
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+(node:15392) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+(node:15392) DeprecationWarning: collection.count is deprecated, and will be removed in a future version. Use Collection.countDocuments or Collection.estimatedDocumentCount instead
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+(node:8364) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+(node:8364) DeprecationWarning: collection.count is deprecated, and will be removed in a future version. Use Collection.countDocuments or Collection.estimatedDocumentCount instead
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+(node:13824) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+(node:16224) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+(node:16224) DeprecationWarning: collection.count is deprecated, and will be removed in a future version. Use Collection.countDocuments or Collection.estimatedDocumentCount instead
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+(node:8376) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+(node:8376) DeprecationWarning: collection.count is deprecated, and will be removed in a future version. Use Collection.countDocuments or Collection.estimatedDocumentCount instead
