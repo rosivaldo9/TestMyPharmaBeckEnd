@@ -11,7 +11,7 @@ app.use(bodyParser.json())//configurado para analisar dados no formato json
 app.use(cors());
 
 //conexão com banco de dados
-mongoose.connect("mongodb+srv://souza:2804tania@cluster0.oq0qb.mongodb.net/MyPharma?retryWrites=true&w=majority", {useNewUrlParser:true});
+mongoose.connect("mongodb+srv://admin:2804@cluster0.oq0qb.mongodb.net/MyPharma?retryWrites=true&w=majority", {useNewUrlParser:true});
 
 //centraliza os models nessa pasta
 requireDir('./src/models');
