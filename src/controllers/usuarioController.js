@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 const User = mongoose.model('Usuario');
 
 const jwt = require('jsonwebtoken')
-const bcrypt = require('bcrypt')
+//const bcrypt = require('bcrypt')
 
 process.env.SECRET_KEY = 'secret'
 module.exports = {
@@ -18,8 +18,8 @@ module.exports = {
     await User.findOne({ email: req.body.email }) //verificando se email ja existe no banco
       .then(user => {
         if (!user) {
-          bcrypt.hash(req.body.password, 10, (err, hash) => {
-            userData.password = hash
+     //     bcrypt.hash(req.body.password, 10, (err, hash) => {
+         //   userData.password = hash
             User.create(userData) //cadstro do usuario
               .then(user => {
                 res.json({ status: user.email + '  foi Cadasatra' })
@@ -27,9 +27,9 @@ module.exports = {
               .catch(err => {
                 res.send("Usuario não cadastrado erro:   " + err)
               })
-          }).catch(ee =>{
+        /*  }).catch(ee =>{
             console.log("errro:  "+ ee) 
-          })
+          })*/
         } else {
           res.json({ error: 'Usuario já existe' })
         }
@@ -44,7 +44,7 @@ module.exports = {
     await User.findOne({ email: req.body.email }) //verificando se email existe no banco
       .then(user => {
         if (user) {
-          if (bcrypt.compareSync(req.body.password, user.password)) { //verifocando se senha esta correta
+          if (req.body.password == user.password) { //verifocando se senha esta correta
             const payload = {
               _id: user._id,
               nome: user.nome,
