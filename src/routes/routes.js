@@ -7,7 +7,7 @@ routes.use(cors())
 const usuarioController = require('../controllers/usuarioController');
 const categoriaController = require('../controllers/categoriaController');
 const marcaController = require('../controllers/marcarController');
-const produtoController = require('../controllers/ProdutoController');
+const produtoController = require('../controllers/produtoController');
 
 
 //rotas do produto
