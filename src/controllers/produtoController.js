@@ -18,7 +18,7 @@ module.exports = {
                     marca: marca._id
                 }
               const produto =  Produto.create(produt);
-                return res.json( produto );
+                return res.json(produto ).status(201);
             })
         });
     },
