@@ -9,18 +9,18 @@ module.exports = {
 
   //cadastrando usuario
   async insert(req, res) {
-    const userData = {
+ /*   const userData = {
       nome: req.body.nome,
       email: req.body.email,
       password: req.body.password
-    }
+    }*/
 
     await User.findOne({ email: req.body.email }) //verificando se email ja existe no banco
       .then(user => {
         if (!user) {
      //     bcrypt.hash(req.body.password, 10, (err, hash) => {
          //   userData.password = hash
-            User.create(userData) //cadstro do usuario
+            User.create(req.body) //cadstro do usuario
               .then(user => {
                 res.json({ status: user.email + '  foi Cadasatra' })
               })
