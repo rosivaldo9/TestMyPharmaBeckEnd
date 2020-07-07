@@ -20,4 +20,4 @@ requireDir('./src/models');
 app.use('/sistema', require('./src/routes/routes'));
 
 //porta
-app.listen(process.env.Port || 5000);
+app.listen(process.env.PORT || 5000);
